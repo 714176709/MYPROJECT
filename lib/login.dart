@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_project/main.dart';
-
-
+import 'go.dart';
 class login extends StatefulWidget {
   const login({Key? key}) : super(key: key);
 
@@ -118,7 +117,7 @@ class _loginState extends State<login> {
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(
                       builder: (context) {
-                        return myApp();
+                        return go();
                       },
                     ));
                   },
